@@ -1,0 +1,41 @@
+h2 {
+    font-size:20px;
+    text-align:center;
+    padding:0px 0;
+}
+
+h1 {
+    font-size:60px;
+    color:aqua;
+    background:rgb(216, 174, 166);
+    text-align:center;
+    padding:0px 0;
+}
+
+.kekka {
+    font-size:30px;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.kome1 {
+    font-size:30px;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.number {
+    color:blue;
+}
+
+.good {
+    color:red;
+}
+
+.retry {
+    font-size:30px;
+    padding-top:30px;
+    padding-left:30px;
+}
+
+
