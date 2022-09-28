@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>おみくじ</title>
+    <link rel="stylesheet" href="my css.css">
+</head>
+
+<body>
+    <div class="header">
+        <h2>games by html初心者</h2>
+        <h1><a class="a1" href="おみくじ３.html">おみくじ ver.3</a></h1>
+    </div>    
+    
+    <div class="main">
+        <p>おみくじ ver.3を作りました。下のボタンをクリックしてやってみてください↓。吉から大吉までです。つまりはずれなしですねｗｗ。</p>
+        <p>何回でもできるので、大吉が出るまでやってみてください。少し頭をひねればわかります。</p>
+        <ul>
+            <li>ver.1は</li><a class="a2" href="https://htmlcsshed.github.io/">こちら</a>
+            <li>ver.2は</li><a class="a2" href="https://htmlcsshed.github.io/omikuji2.github-io/">こちら</a>
+        </ul>
+
+        <script>
+            myTable = new Array(	
+                "おみくじ１.html",
+                "おみくじ２.html",
+                "おみくじ４.html"
+            );
+
+            function myRndLink(){
+                myRnd = Math.floor( Math.random() * myTable.length );	
+                location.href = myTable[myRnd]; 
+            }
+        </script>
+        <form>
+            <a><input type="button" value="おみくじを引く" onclick="myRndLink()"></a>
+        </form>
+    </div>
+</body>
